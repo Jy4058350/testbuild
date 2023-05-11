@@ -564,7 +564,9 @@ var _parallaxJs = require("parallax-js");
 var _parallaxJsDefault = parcelHelpers.interopDefault(_parallaxJs);
 var scene = document.getElementById("scene");
 var parallaxInstance = new (0, _parallaxJsDefault.default)(scene, {
-    relativeInput: true
+    relativeInput: true,
+    // clipRelativeInput: true,
+    hoverOnly: true
 });
 parallaxInstance.friction(0.04, 0.04);
 
