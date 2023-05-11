@@ -566,7 +566,7 @@ var scene = document.getElementById("scene");
 var parallaxInstance = new (0, _parallaxJsDefault.default)(scene, {
     relativeInput: true
 });
-parallaxInstance.friction(0.2, 0.2);
+parallaxInstance.friction(0.04, 0.04);
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","parallax-js":"8KDV2","lodash":"3qBDj"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
