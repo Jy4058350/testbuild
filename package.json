@@ -1,0 +1,21 @@
+{
+  "name": "testbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "lodash": "^4.17.21",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "parallax-js": "^3.1.0"
+  }
+}
