@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html"
+    "start": "parcel swiper/index.html"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "parcel": "^2.8.3"
   },
   "dependencies": {
-    "parallax-js": "^3.1.0"
+    "parallax-js": "^3.1.0",
+    "swiper": "^9.3.1"
   }
 }

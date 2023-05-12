@@ -1,4 +1,5 @@
-// import Swiper from "swiper";
+import Swiper, { Navigation, Pagination } from 'swiper';
+
 
 // var swiper = new Swiper(".mySwiper", {
 //     navigation: {
@@ -7,7 +8,7 @@
 //     },
 //   });
 var swiper = new Swiper(".mySwiper", {
-    pagination: {
-     el: '.swiper-pagination',
-    },
-   });
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
