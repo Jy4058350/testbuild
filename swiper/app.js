@@ -7,6 +7,12 @@ Swiper.use([Navigation, Pagination]);
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
+  speed: 1000,
+  spaceBetween: 100,
+  allowSlideNext: true,
+  allowSlidePrev: true,
+  allowTouchMove: true,
+  autoHeight: false,
 
   // If we need pagination
   pagination: {
