@@ -1,6 +1,5 @@
 import Swiper, { Navigation, Pagination } from "swiper";
-// import "../node_modules/swiper/swiper-bundle.css";
-
+Swiper.use([Navigation, Pagination]);
 
 var swiper = new Swiper(".mySwiper", {
   pagination: {

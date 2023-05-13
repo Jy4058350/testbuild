@@ -560,7 +560,10 @@ function hmrAccept(bundle, id) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _swiper = require("swiper");
 var _swiperDefault = parcelHelpers.interopDefault(_swiper);
-// import "../node_modules/swiper/swiper-bundle.css";
+(0, _swiperDefault.default).use([
+    (0, _swiper.Navigation),
+    (0, _swiper.Pagination)
+]);
 var swiper = new (0, _swiperDefault.default)(".mySwiper", {
     pagination: {
         el: ".swiper-pagination"
