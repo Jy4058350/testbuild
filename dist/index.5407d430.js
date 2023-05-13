@@ -560,21 +560,44 @@ function hmrAccept(bundle, id) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _swiper = require("swiper");
 var _swiperDefault = parcelHelpers.interopDefault(_swiper);
-(0, _swiperDefault.default).use([
-    (0, _swiper.Navigation),
-    (0, _swiper.Pagination)
-]);
+// Swiper.use([Navigation, Pagination]);
 /*
   Swiper.use([Navigation, Pagination, Autoplay]);
 */ const swiper = new (0, _swiperDefault.default)(".swiper", {
     // Optional parameters
+    modules: [
+        (0, _swiper.Navigation),
+        (0, _swiper.Pagination)
+    ],
     loop: true,
     speed: 1000,
     spaceBetween: 100,
     allowSlideNext: true,
     allowSlidePrev: true,
     allowTouchMove: true,
-    autoHeight: false,
+    autoHeight: true,
+    centerInsufficientSlides: true,
+    centeredSlides: false,
+    centeredSlidesBounds: false,
+    // containerModifierClass: "swiper-container-",
+    // effect: "flip",
+    cssMode: false,
+    breakpoints: {
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 40
+        }
+    },
     // If we need pagination
     pagination: {
         el: ".swiper-pagination",
