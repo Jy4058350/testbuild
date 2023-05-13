@@ -564,7 +564,9 @@ var _swiperDefault = parcelHelpers.interopDefault(_swiper);
     (0, _swiper.Navigation),
     (0, _swiper.Pagination)
 ]);
-var swiper = new (0, _swiperDefault.default)(".mySwiper", {
+/*
+  Swiper.use([Navigation, Pagination, Autoplay]);
+*/ var swiper = new (0, _swiperDefault.default)(".mySwiper", {
     pagination: {
         el: ".swiper-pagination"
     }
