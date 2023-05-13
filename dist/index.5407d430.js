@@ -566,7 +566,7 @@ var _swiperDefault = parcelHelpers.interopDefault(_swiper);
 ]);
 /*
   Swiper.use([Navigation, Pagination, Autoplay]);
-*/ var swiper = new (0, _swiperDefault.default)(".swiper", {
+*/ const swiper = new (0, _swiperDefault.default)(".swiper", {
     // Optional parameters
     loop: true,
     // If we need pagination

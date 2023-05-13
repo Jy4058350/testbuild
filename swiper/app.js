@@ -4,7 +4,7 @@ Swiper.use([Navigation, Pagination]);
   Swiper.use([Navigation, Pagination, Autoplay]);
 */
 
-var swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
 
