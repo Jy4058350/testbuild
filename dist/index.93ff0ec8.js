@@ -563,6 +563,11 @@ var _swiperDefault = parcelHelpers.interopDefault(_swiper);
 /*
   Swiper.use([Navigation, Pagination, Autoplay]);
 */ const swiper = new (0, _swiperDefault.default)(".mySwiper", {
+    modules: [
+        (0, _swiper.Navigation),
+        (0, _swiper.Pagination),
+        (0, _swiper.EffectCoverflow)
+    ],
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
