@@ -1,0 +1,22 @@
+import Swiper, { Navigation, Pagination, EffectCoverflow } from "swiper";
+/*
+  Swiper.use([Navigation, Pagination, Autoplay]);
+*/
+
+const swiper = new Swiper(".mySwiper", {
+  modules: [ Navigation, Pagination, EffectCoverflow ],
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
