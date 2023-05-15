@@ -1,0 +1,42 @@
+.container {
+  min-height: 100vh;
+  background-color: #0000;
+  background-image: linear-gradient(#0000004d, #0000004d), url("https://picsum.photos/800");
+  background-position: center;
+  background-repeat: repeat, no-repeat;
+  background-size: cover;
+  background-attachment: scroll, scroll;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  place-items: center;
+  padding: 60px;
+  display: grid;
+}
+
+.content {
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+  padding: 5px 0;
+  font-size: 40px;
+}
+
+p {
+  color: #fff;
+  padding: 5px 0;
+  font-size: 25px;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  color: #333;
+  cursor: pointer;
+  background-color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=index.5d59fa77.css.map */
