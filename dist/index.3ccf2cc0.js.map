@@ -1,1 +1,1 @@
-{"mappings":"","sources":["randomimage/main.js"],"sourcesContent":[null],"names":[],"version":3,"file":"index.3ccf2cc0.js.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA,SAAS,UAAU;IACf,OAAO,QAAQ,CAAC,MAAM;AAC1B;AAEA,YAAY,SAAS","sources":["randomimage/main.js"],"sourcesContent":["function refresh() {\n    window.location.reload();\n}\n\nsetInterval(refresh, 5000);"],"names":[],"version":3,"file":"index.3ccf2cc0.js.map","sourceRoot":"/__parcel_source_root/"}
