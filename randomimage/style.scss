@@ -1,0 +1,37 @@
+
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 60px;
+    background: url(https://picsum.photos/800 ) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    color: #fff;
+    padding: 5px 0;
+}
+
+p {
+    font-size: 25px;
+    color: #fff;
+    padding: 5px 0;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    color:#333;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+}
