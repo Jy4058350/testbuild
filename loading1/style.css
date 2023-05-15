@@ -28,7 +28,7 @@
 
 @keyframes loading {
   from {
-    transforom: rotate(0turn);
+    transform: rotate(0turn);
   }
   to {
     transform: rotate(1turn);
