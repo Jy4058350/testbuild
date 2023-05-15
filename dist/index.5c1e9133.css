@@ -1,0 +1,39 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7f9fb;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .75s, visibility .75s;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader:after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #ddd;
+  border-top-color: #7449f5;
+  border-radius: 50%;
+  animation: .75s infinite loading;
+}
+
+@keyframes loading {
+  from {
+    transforom: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/*# sourceMappingURL=index.5c1e9133.css.map */
